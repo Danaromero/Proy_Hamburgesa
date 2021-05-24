@@ -9,7 +9,7 @@ class FirstPage extends StatelessWidget {
           'First Page',
           style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
         ), //Text
-        child: AssetImage('assets/images/api.png'),
+        children: AssetImage('assets/images/api.png'),
       ), // center
     ); //container
   } // widget
