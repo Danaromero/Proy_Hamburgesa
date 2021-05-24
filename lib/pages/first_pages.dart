@@ -9,6 +9,12 @@ class FirstPage extends StatelessWidget {
           'Second Page',
           style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
         ), //Text
+        decoration: new BoxDecoration(
+          image: new DecorationImage(
+              image: new AssetImage("assets/images/api.png"),
+              fit: BoxFit.fill,
+          )
+        )
       ), // center
     ); //container
   } // widget
