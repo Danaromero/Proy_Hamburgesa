@@ -3,14 +3,15 @@ import 'package:flutter/material.dart';
 class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-  return DecoratedBox( title: Text('Primer Pagina'), //Text
-    decoration: BoxDecoration(
-      image: DecorationImage(
-        image: AssetImage('assets/images/burger.jpg'),
-        
-      ),
-     
-    ),
-  );
+  child: Card(
+       child: Column(
+     children: <Widget>[
+       Image.asset('assets/images/api.png'),
+       Container(
+         padding: EdgeInsets.all(10),
+         child: Text("Hola Mundo"),
+       )
+     ],
+   ));
 }
 } // first page
