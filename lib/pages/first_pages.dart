@@ -8,7 +8,7 @@ class FirstPage extends StatelessWidget {
       image: DecorationImage(
         image: AssetImage('assets/images/burger.jpg'),
       ),
-      child: Text(
+      title: Text(
           'Primer Pagina',
           style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
         ), //Text
