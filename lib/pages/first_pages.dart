@@ -9,7 +9,8 @@ class FirstPage extends StatelessWidget {
         Container(
           alignment: Alignment.center,
           child: Image.network(
-           'https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/monitor.png'            height: 250,
+           'https://raw.githubusercontent.com/Danaromero/Mis_Imagenes_Romero/main/monitor.png',
+                       height: 250,
             
           ),
         ),
