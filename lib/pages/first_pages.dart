@@ -13,8 +13,8 @@ class FirstPage extends StatelessWidget {
           image: new DecorationImage(
               image: new AssetImage("assets/images/api.png"),
               fit: BoxFit.fill,
-          )
-        )
+          ),
+        ),
       ), // center
     ); //container
   } // widget
