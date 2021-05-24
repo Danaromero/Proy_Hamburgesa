@@ -7,10 +7,9 @@ class FirstPage extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(
-              ),
-          fit: BoxFit.fill,
+              'assets/images/burger.jpg'),
+          
         ),
-        shape: BoxShape.circle,
       ),
       child: Center(
         child: Text(
