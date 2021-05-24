@@ -9,6 +9,7 @@ class DanaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Burger Victoria',
       home: PaginaInicio(),
     ); //Fin Material App
