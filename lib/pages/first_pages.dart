@@ -7,10 +7,6 @@ class FirstPage extends StatelessWidget {
        child: Column(
      children: <Widget>[
        Image.asset('assets/images/api.png'),
-       Container(
-         padding: EdgeInsets.all(10),
-         child: Text("Hola Mundo"),
-       )
      ],
    ));
 }
