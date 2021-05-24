@@ -7,7 +7,7 @@ class FirstPage extends StatelessWidget {
   return DecoratedBox(
     decoration: BoxDecoration(
       image: DecorationImage(
-        image: AssetImage('assets/images/BURGESIN.gif'),
+        image: AssetImage('assets/images/burger.jpg'),
         // ...
       ),
       // ...
