@@ -25,7 +25,9 @@ class _ThirdPageState extends State<ThirdPage> {
             height: 200,
             width: 250,
             color: Colors.orange[200],
-            decoration: BoxDecoration(
+            
+          ),//Container
+decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: Colors.white,
           border: Border(
@@ -35,8 +37,6 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
             ),
           ),
-          ),//Container
-
           
         ],//Widget
       ),//Column
