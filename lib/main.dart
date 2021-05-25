@@ -3,6 +3,7 @@ import 'package:Victoria/pages/first_pages.dart';
 import 'package:Victoria/pages/second_pages.dart';
 import 'package:Victoria/pages/third_pages.dart';
 import 'package:Victoria/pages/cuarto.dart';
+import 'package:Victoria/pages/quinto.dart';
 
 void main() => runApp(DanaApp());
 
@@ -40,7 +41,10 @@ class _PaginaInicioState extends State<PaginaInicio> {
         break;
       case 3:
         child = MaterialApp(debugShowCheckedModeBanner: false, home: new CuartaPage());
-        break;  
+        break;
+      case 4:
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new QuintaPage());
+        break;    
     } //Fin Switch Selecciona Paginas
     return Scaffold(
       body: SizedBox.expand(child: child),
@@ -56,7 +60,10 @@ class _PaginaInicioState extends State<PaginaInicio> {
             title: Text('Home')),
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('LOL')),      
+            title: Text('LOL')),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
+            title: Text('LOL')),            
       ]), // bottom
     ); //Fin Scaffold
   } //Fin Widget
