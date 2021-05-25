@@ -49,6 +49,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
     return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
+         unselectedItemColor: Colors.green,
+        selectedItemColor: Colors.yellow,
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blue, size: 30.0), //icon
             title: Text('Inicio', style: TextStyle(color: Colors.black),)), 
