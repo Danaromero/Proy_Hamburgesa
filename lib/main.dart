@@ -54,7 +54,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.blue, size: 30.0), //icon
             title: Text('Inicio', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.event_note_outlined, color: Colors.green, size: 30.0), //icon
+            icon: Icon(Icons.person_add_alt_outlined, color: Colors.green, size: 30.0), //icon
             title: Text('Registro', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.add_circle_outline_outlined, color: Colors.black, size: 30.0), //icon
