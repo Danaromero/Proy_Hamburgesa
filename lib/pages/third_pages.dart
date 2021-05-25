@@ -25,10 +25,10 @@ class _ThirdPageState extends State<ThirdPage> {
             color: Colors.pink,
             height: 200,
             width: 350,
-            decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+            shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30.0)
             ),//RoundedRectangleBorder
-            ),
+           
           ),//Container
 
           
