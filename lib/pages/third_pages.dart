@@ -48,7 +48,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 shape: BoxShape.circle,
               ),
               child: Align(
-                alignment: Alignment(0, 0),
+                alignment: Alignment(0, 0.1),
                 child: Text(
                   "Segundo Contenedor",
                   textAlign: TextAlign.center,
