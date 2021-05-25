@@ -4,6 +4,11 @@ class QuintaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Dana Romero Widgets App'),
+        centerTitle: true,
+        backgroundColor: Colors.white10,
+      ),
       backgroundColor: Colors.white,
       body: Container(
         child: Center(
