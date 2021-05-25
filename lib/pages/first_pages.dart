@@ -12,20 +12,13 @@ class FirstPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Container(
-                        child: new Image.asset(
-                          'assets/images/burger.jpg',
-                          
-                        ),
-                      ),
+                child: new Image.asset(
+                  'assets/images/burger.jpg',
+                ),
+              ),
               Text(
                 "Soy la primer pagina!",
-                style: TextStyle(
-               color: Colors.black,
-                fontWeight: FontWeight.bold,
-                fontSize: 30),
-
-
-
+                style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],
           ),
