@@ -18,7 +18,7 @@ class FirstPage extends StatelessWidget {
                         ),
                       ),
               Text(
-                "Hola, soy la primer pagina!",
+                "Hey soy primer pagina!",
                 style: TextStyle(
                color: Colors.black,
                 fontWeight: FontWeight.bold,
