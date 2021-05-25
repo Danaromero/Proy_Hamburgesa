@@ -4,8 +4,10 @@ import 'dart:ui' as ui;
 class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final ui.Size logicalSize = MediaQuery.of(context).size;
+    final double _heigth = logicalSize.height;
     return Scaffold(
-      
+      resizeToAvoidBottomPadding: false,
       body: SafeArea(
       child: Container(
         width: double.infinity,
