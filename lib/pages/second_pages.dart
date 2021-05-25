@@ -58,7 +58,10 @@ class SecondPage extends StatelessWidget {
                     SizedBox(
                       height: 40,
                     ),
-                    RaisedButton(
+                    Row(
+                    mainAxisAlignment  MainAxisAlignment.center,
+                    children: <Widget>[
+                    CupertinoButton(
                       padding: EdgeInsets.symmetric(horizontal: 30.0),
                       color: Colors.blue,
                       
@@ -69,6 +72,8 @@ class SecondPage extends StatelessWidget {
                     SizedBox(
                       height: 40,
                     ),
+                    ],//Widget
+                    ),//Row
                   ], //Widget
                 ), //Column
               ], //Widget
