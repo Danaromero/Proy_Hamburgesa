@@ -8,16 +8,7 @@ class ThirdPage extends StatefulWidget {
 class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          'Dana Romero Widgets App',
-          style: TextStyle(color: Colors.white),
-        ),
-        centerTitle: true,
-        backgroundColor: Colors.red[200],
-      ),
-      return Material(
+    return Material(
       child: SafeArea(
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
@@ -92,7 +83,6 @@ class _ThirdPageState extends State<ThirdPage> {
         ), //Column
       ), //ConstrainedBox
       ),//SafeAREA
-      ),
     ); //Material
   } // widget
 } // first page
