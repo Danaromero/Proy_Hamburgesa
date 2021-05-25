@@ -23,7 +23,7 @@ class QuintaPage extends StatelessWidget {
                 ),
               ),
               Text(
-                "Soy la primer pagina!",
+                "Soy la quinta pagina!",
                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],

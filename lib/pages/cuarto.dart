@@ -23,7 +23,7 @@ class CuartaPage extends StatelessWidget {
                 ),
               ),
               Text(
-                "Soy la primer pagina!",
+                "Soy la cuarta pagina!",
                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],

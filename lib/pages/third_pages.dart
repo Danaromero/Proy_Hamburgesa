@@ -25,7 +25,7 @@ class ThirdPage extends StatelessWidget {
                 ),
               ),
               Text(
-                "Soy la primer pagina!",
+                "Soy la tercer pagina!",
                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],
