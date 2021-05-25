@@ -30,6 +30,7 @@ class _ThirdPageState extends State<ThirdPage> {
                   color: Colors.green,
                   width: 3,
               ),
+            ),
           ),//Container
 
           
