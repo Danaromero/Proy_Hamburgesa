@@ -25,17 +25,23 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 20.0,
             ),
             Container(
-            decoration: BoxDecoration(
-                border: Border.all(
-                    color: Color(0xFFF05A22),
-                    style: BorderStyle.solid,
-                    height: 200,
-                    width: 350,
+              child: Text(
+                'This is a Container',
+                textScaleFactor: 2,
+                style: TextStyle(color: Colors.black),
+              ),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.white,
+                border: Border(
+                  left: BorderSide(
+                    color: Colors.green,
+                    width: 3,
+                  ),
                 ),
-                color: Colors.transparent,
-                borderRadius: BorderRadius.circular(30.0),
+              ),
+              height: 50,
             ),
-          ),
           ], //Widget
         ), //Column
       ), //ConstrainedBox
