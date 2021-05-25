@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ThirdPage extends StatelessWidget{
+class ThirdPage extends StatefulWidget{
   @override
   _ThirdPageState createState() => _ThirdPageState();
 }
