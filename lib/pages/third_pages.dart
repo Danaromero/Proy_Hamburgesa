@@ -57,6 +57,9 @@ class _ThirdPageState extends State<ThirdPage> {
               ),//Align
               ),//Fin Container
             ),//Fin COntainer
+            SizedBox(
+              height: 20.0,
+            ),
             Align(
               alignment: Alignment(0, 0,),
               child: Container(
