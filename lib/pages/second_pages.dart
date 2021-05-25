@@ -59,7 +59,7 @@ class SecondPage extends StatelessWidget {
                       height: 40,
                     ),
                     Row(
-                    mainAxisAlignment  MainAxisAlignment.center,
+                    mainAxisAlignment  MainAxisAlignment.center
                     children: <Widget>[
                     CupertinoButton(
                       padding: EdgeInsets.symmetric(horizontal: 30.0),
