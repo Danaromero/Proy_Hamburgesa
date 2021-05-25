@@ -65,6 +65,14 @@ class _ThirdPageState extends State<ThirdPage> {
                 color: Color(0xFF9EFFF1),
                 shape: BoxShape.rectangle,
               ),
+              child: Align(
+                alignment: Alignment(0, 0.1),
+                child: Text(
+                  "Dana Romero",
+                  textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 20.0, color: Colors.black),
+                                ),
+              ),//Align
               ),//Container
             ),//Align
           ], //Widget
