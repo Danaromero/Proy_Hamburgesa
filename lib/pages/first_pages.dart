@@ -3,21 +3,33 @@ import 'package:flutter/material.dart';
 class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage(
-              'assets/images/burger.jpg'),
-          
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Container(
+        child: Center(
+          child: Column(
+            // center the children
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Icon(
+                Icons.calculate_rounded  ,
+                size: 160.0,
+                color: Colors.red,
+              ),
+              Text(
+                "Calculadora",
+                style: TextStyle(
+               color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontSize: 30),
+
+
+
+              )
+            ],
+          ),
         ),
       ),
-      child: Center(
-        child: Text(
-          'Second Page',
-          style: new TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.black),
-        ), //Text
-        
-      ), // center
-    ); //container
+    );
   } // widget
 } // first page
