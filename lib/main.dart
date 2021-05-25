@@ -51,12 +51,12 @@ class _PaginaInicioState extends State<PaginaInicio> {
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blueAccent, size: 30.0), //icon
-            title: Text('Home')), 
+            title: Text('Home', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.format_align_center, color: Colors.blueAccent, size: 30.0), //icon
+            icon: Icon(Icons.home, color: Colors.blueAccent, size: 30.0), //icon
             title: Text('Resgister')), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
+            icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
             title: Text('Home')),
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
