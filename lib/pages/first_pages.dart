@@ -11,10 +11,13 @@ class FirstPage extends StatelessWidget {
             // center the children
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              child: Image.asset(
-           "assets/lol.jpg",
-          width: 400.0,
-        ),
+              new Container(
+                        child: new Image.asset(
+                          'images/lake.jpg',
+                          height: 60.0,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
               Text(
                 "Calculadora",
                 style: TextStyle(
