@@ -5,7 +5,10 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dana Romero Widgets App'),
+        title: Text(
+          'Dana Romero Widgets App',
+          style: TextStyle(color: Colors.black),
+        ),
         centerTitle: true,
         backgroundColor: Colors.white10,
       ),
