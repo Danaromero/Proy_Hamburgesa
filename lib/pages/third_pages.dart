@@ -27,7 +27,6 @@ class _ThirdPageState extends State<ThirdPage> {
             Container(
               child: Text(
                 'This is a Container',
-                
                 style: TextStyle(color: Colors.black),
               ),
               decoration: BoxDecoration(
@@ -36,7 +35,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 border: Border(
                   left: BorderSide(
                     color: Colors.green,
-                    width: 3,
+                    width: 10,
                   ),
                 ),
               ),
