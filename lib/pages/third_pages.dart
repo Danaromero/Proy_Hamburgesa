@@ -33,7 +33,13 @@ class _ThirdPageState extends State<ThirdPage> {
             SizedBox(
               height: 20.0,
             ),
-            
+            Container(
+              height: 200,
+              width: 350,
+              decoration: BoxDecoration(
+                color: Color(0xFFEEEEEE)
+              ),
+            ),//Fin COntainer
           ], //Widget
         ), //Column
       ), //ConstrainedBox
