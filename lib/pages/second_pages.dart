@@ -55,24 +55,23 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(hintText: "Paswoord", icon: Icon(Icons.vpn_key)),
                     ),
-                    SizedBox(height: 40,),//SizedBox
-                     Row(
+                    SizedBox(
+                      height: 40,
+                    ), //SizedBox
+                    Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         FlatButton(
                           child: Text('Cancelar'),
                           color: Colors.blue[200],
                           padding: EdgeInsets.all(20.0),
-                          onPressed: () {
-                          },
+                          onPressed: () {},
                         ), //Fin FlatButton
                         new Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         ),
-                    
-                    
-                    
-                    RaisedButton(
+
+                        RaisedButton(
                           child: Text(
                             'Siguiente',
                           ),
@@ -81,14 +80,10 @@ class SecondPage extends StatelessWidget {
                           animationDuration: Duration(seconds: 20),
                           padding: EdgeInsets.all(20.0),
                           colorBrightness: Brightness.light,
-                          onPressed: () {
-                          },
+                          onPressed: () {},
                         ), //Fin Raised Button
-
-                    
                       ], //Fin niños Widget
                     ), //Fin de Niño Row
-
                   ], //Widget
                 ), //Column
               ], //Widget
