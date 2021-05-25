@@ -16,7 +16,7 @@ class SecondPage extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 SizedBox(
-                  height: 50,
+                  height: 20,
                 ),
                 Container(
                   child: Text(
