@@ -20,21 +20,17 @@ class _ThirdPageState extends State<ThirdPage> {
               color: Colors.pink,
               height: 200,
               width: 350,
+              child: Align(
+               alignment: Alignment(0.1, 0),
+               child: Text("Primer Contenedor"
+               textAlign: TextAlign.center,
+               ),
+              ),
             ), //Container
             SizedBox(
               height: 20.0,
             ),
-            Container(
-      
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.only(
-              topRight: Radius.circular(40.0),
-              bottomRight: Radius.circular(40.0)),
-             topLeft: Radius.circular(40.0),
-              bottomLeft: Radius.circular(40.0)), 
-         
-      child: Text("hello"),
-    ),
+            
           ], //Widget
         ), //Column
       ), //ConstrainedBox
