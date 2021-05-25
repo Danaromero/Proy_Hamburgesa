@@ -54,16 +54,16 @@ class _PaginaInicioState extends State<PaginaInicio> {
             title: Text('Home', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blueAccent, size: 30.0), //icon
-            title: Text('Resgister')), 
+            title: Text('Resgister', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('Home')),
+            title: Text('Home', style: TextStyle(color: Colors.black),)),
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('LOL')),
+            icon: Icon(Icons.home , color: Colors.orangeAccent, size: 30.0), //icon
+            title: Text('LOL', style: TextStyle(color: Colors.black),)),
         BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('LOL')),            
+            icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
+            title: Text('LOL', style: TextStyle(color: Colors.black),)),            
       ]), // bottom
     ); //Fin Scaffold
   } //Fin Widget
