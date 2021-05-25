@@ -21,11 +21,11 @@ class FirstPage extends StatelessWidget {
             children: <Widget>[
               new Container(
                 child: new Image.asset(
-                  'assets/images/burger.jpg',
+                  'assets/images/mc.png',
                 ),
               ),
               Text(
-                "Soy la primer pagina!",
+                "Bienvenido!",
                 style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30),
               )
             ],
