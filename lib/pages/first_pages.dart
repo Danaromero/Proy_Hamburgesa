@@ -11,11 +11,10 @@ class FirstPage extends StatelessWidget {
             // center the children
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Icon(
-                Icons.calculate_rounded  ,
-                size: 160.0,
-                color: Colors.red,
-              ),
+              child: Image.asset(
+           "assets/lol.jpg",
+          width: 400.0,
+        ),
               Text(
                 "Calculadora",
                 style: TextStyle(
