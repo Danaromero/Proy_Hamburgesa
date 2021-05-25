@@ -48,8 +48,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
     } //Fin Switch Selecciona Paginas
     return Scaffold(
       body: SizedBox.expand(child: child),
-      bottomNavigationBar: BottomNavigationBar( unselectedItemColor: Colors.green,
-    selectedItemColor: Colors.yellow, onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
+      bottomNavigationBar: BottomNavigationBar(backgroundColor: Colors.red, onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blue, size: 30.0), //icon
