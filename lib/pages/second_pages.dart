@@ -58,7 +58,7 @@ class SecondPage extends StatelessWidget {
                     SizedBox(
                       height: 40,
                     ),
-                    CupertinoButton(
+                    RaisedButton(
                       padding: EdgeInsets.symmetric(horizontal: 30.0),
                       color: Colors.blue,
                       
