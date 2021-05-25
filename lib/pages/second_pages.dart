@@ -12,6 +12,7 @@ class SecondPage extends StatelessWidget {
           width: double.infinity,
           height: double.infinity,
           padding: EdgeInsets.symmetric(horizontal: 20.0),
+          child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
               SizedBox(
@@ -76,6 +77,7 @@ class SecondPage extends StatelessWidget {
               ), //Column
             ], //Widget
           ), //Column
+          ),//Fin Single
         ), //Container
       ), //SafeArea
     ); //Scaffold
