@@ -53,8 +53,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.blue, size: 30.0), //icon
             title: Text('Home', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.facebook_outlined, color: Colors.blueAccent, size: 30.0), //icon
-            title: Text('Traductor', style: TextStyle(color: Colors.black),)), 
+            icon: Icon(Icons.event_note_outlined, color: Colors.blueAccent, size: 30.0), //icon
+            title: Text('Calendario', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
             title: Text('Home', style: TextStyle(color: Colors.black),)),
