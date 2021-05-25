@@ -29,7 +29,8 @@ class _ThirdPageState extends State<ThirdPage> {
                 border: Border.all(
                     color: Color(0xFFF05A22),
                     style: BorderStyle.solid,
-                    width: 1.0,
+                    height: 200,
+                    width: 350,
                 ),
                 color: Colors.transparent,
                 borderRadius: BorderRadius.circular(30.0),
