@@ -7,10 +7,10 @@ class CuartaPage extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Dana Romero Widgets App',
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
-        backgroundColor: Colors.grey[100],
+        backgroundColor: Colors.red[200],
       ),
       backgroundColor: Colors.white,
       body: Container(
