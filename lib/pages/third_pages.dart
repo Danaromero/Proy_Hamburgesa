@@ -21,7 +21,7 @@ class ThirdPage extends StatelessWidget {
             children: <Widget>[
               new Container(
                 child: new Image.asset(
-                  'assets/images/prom.png',
+                   'assets/images/prom.jpg',
                 ),
               ),
               Text(
