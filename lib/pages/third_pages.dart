@@ -26,7 +26,7 @@ class _ThirdPageState extends State<ThirdPage> {
                alignment: Alignment(0.1, 0),
                child: Text("Primer Contenedor",
                textAlign: TextAlign.center,
-               
+               style: TextStyle(fontSize: 16.0, color: Colors.white),
                ),
               ),
             ), //Container
