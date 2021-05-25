@@ -61,7 +61,7 @@ class _ThirdPageState extends State<ThirdPage> {
               alignment: Alignment(0, 0,),
               child: Container(
                 height: 100,
-              width: 10,
+              width: 150,
               decoration: BoxDecoration(
                 color: Color(0xFF9EFFF1),
                 shape: BoxShape.rectangle,
