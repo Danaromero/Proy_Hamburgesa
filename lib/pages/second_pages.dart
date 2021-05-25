@@ -55,25 +55,20 @@ class SecondPage extends StatelessWidget {
                     TextField(
                       decoration: InputDecoration(hintText: "Paswoord", icon: Icon(Icons.vpn_key)),
                     ),
-                    SizedBox(
-                      height: 40,
-                    ),
+                    SizedBox(height: 40,),//SizedBox
                     Row(
-                    mainAxisAlignment  MainAxisAlignment.center
                     children: <Widget>[
                     CupertinoButton(
-                      padding: EdgeInsets.symmetric(horizontal: 30.0),
                       color: Colors.blue,
-                      
                       child: Text('Cancelar',
                       style: TextStyle(fontSize: 15.0),),
                       onPressed: () {},
                     ), //Fin FlatButton
-                    SizedBox(
-                      height: 40,
-                    ),
+                    SizedBox(height: 40,),
                     ],//Widget
                     ),//Row
+                    
+
                   ], //Widget
                 ), //Column
               ], //Widget
