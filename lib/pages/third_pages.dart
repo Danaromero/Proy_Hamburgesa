@@ -51,7 +51,8 @@ class _ThirdPageState extends State<ThirdPage> {
                 child: Text(
                   "Segundo Contenedor",
                   textAlign: TextAlign.center,
-                )
+                style: TextStyle(fontSize: 20.0, color: Colors.black),
+                                ),
               ),//Align
               ),//Fin Container
             ),//Fin COntainer
