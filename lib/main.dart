@@ -53,8 +53,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.blueAccent, size: 30.0), //icon
             title: Text('Home', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.red[100], size: 30.0), //icon
-            title: Text('Resgister', style: TextStyle(color: Colors.black),)), 
+            icon: Icon(Icons.g_translate_outlined, color: Colors.blue, size: 30.0), //icon
+            title: Text('Traductor', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
             title: Text('Home', style: TextStyle(color: Colors.black),)),
