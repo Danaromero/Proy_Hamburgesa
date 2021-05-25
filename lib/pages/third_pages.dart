@@ -32,7 +32,7 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                color: Colors.white,
+                color: Colors.orange,
                 border: Border(
                   left: BorderSide(
                     color: Colors.green,
