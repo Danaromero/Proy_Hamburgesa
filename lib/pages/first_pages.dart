@@ -13,7 +13,7 @@ class FirstPage extends StatelessWidget {
             children: <Widget>[
               new Container(
                         child: new Image.asset(
-                          'images/lake.jpg',
+                          'assets/images/burger.jpg',
                           height: 60.0,
                           fit: BoxFit.cover,
                         ),
