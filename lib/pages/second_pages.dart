@@ -56,11 +56,21 @@ class SecondPage extends StatelessWidget {
                       icon: Icon(Icons.vpn_key)
                     ), ),
                   SizedBox(height: 40,),
-                  CupertinoButton(
-                  child: Text('A Button'),
-                  color: CupertinoColors.activeOrange,
-                   onPressed: (){},
-                     ),  
+                  Padding(
+                    padding: const EdgeInsets.only(top: 18.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        FlatButton(
+                          child: Text('Cancelar'),
+                          color: Colors.blue[200],
+                          padding: EdgeInsets.all(20.0),
+                          onPressed: () {
+                            setState(() {
+                              acceso = false;
+                            });
+                          },
+                        ), //Fin FlatButton
                 ], //Widget
               ), //Column
             ], //Widget
