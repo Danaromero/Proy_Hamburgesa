@@ -39,6 +39,14 @@ class _ThirdPageState extends State<ThirdPage> {
               decoration: BoxDecoration(
                 color: Color(0xFFEEEEEE)
               ),
+              child: Container(
+                height: 100,
+              width: 100,
+              decoration: BoxDecoration(
+                color: Color(0xFFFFCC9A),
+                shape: BoxShape.circle,
+              ),
+              ),//Fin Container
             ),//Fin COntainer
           ], //Widget
         ), //Column
