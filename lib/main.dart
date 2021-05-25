@@ -51,7 +51,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blue, size: 30.0), //icon
-            title: Text('Home', style: TextStyle(color: Colors.black),)), 
+            title: Text('Inicio', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
             icon: Icon(Icons.event_note_outlined, color: Colors.green, size: 30.0), //icon
             title: Text('Calendario', style: TextStyle(color: Colors.black),)), 
