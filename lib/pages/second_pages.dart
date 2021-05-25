@@ -82,6 +82,9 @@ class SecondPage extends StatelessWidget {
                           colorBrightness: Brightness.light,
                           onPressed: () {},
                         ), //Fin Raised Button
+                        SizedBox(
+                      height: 40,
+                    ),
                       ], //Fin niños Widget
                     ), //Fin de Niño Row
                   ], //Widget
