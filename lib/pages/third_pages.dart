@@ -5,42 +5,37 @@ class ThirdPage extends StatefulWidget {
   _ThirdPageState createState() => _ThirdPageState();
 }
 
-
-
 class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      child: ConstrainedBox(constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
-      child: Column(
-        children: <Widget>[
-          SizedBox(height: 80.0, ),
-          Container(
-            color: Colors.pink,
-            height: 200,
-            width: 350,
-          ),//Container
-          SizedBox(height: 20.0, ),
-          Container(
-            height: 200,
-            width: 250,
-            color: Colors.orange[200],
-            
-          ),//Container
-decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: Colors.white,
-          border: Border(
-              left: BorderSide(
-                  color: Colors.green,
-                  width: 3,
-              ),
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
+        child: Column(
+          children: <Widget>[
+            SizedBox(
+              height: 80.0,
             ),
-          ),
-          
-        ],//Widget
-      ),//Column
-      ),//ConstrainedBox
-    );//Material
+            Container(
+              color: Colors.pink,
+              height: 200,
+              width: 350,
+            ), //Container
+            SizedBox(
+              height: 20.0,
+            ),
+            Container(
+              height: 200,
+              width: 250,
+              color: Colors.orange[200],
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.deepPurple.shade100,
+              ),
+            ), //Container
+          ], //Widget
+        ), //Column
+      ), //ConstrainedBox
+    ); //Material
   } // widget
 } // first page
