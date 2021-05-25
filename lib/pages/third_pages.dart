@@ -67,7 +67,7 @@ class _ThirdPageState extends State<ThirdPage> {
                 shape: BoxShape.rectangle,
               ),
               child: Align(
-                alignment: Alignment(0, 0.1),
+                alignment: Alignment(0.1, 0.1),
                 child: Text(
                   "Dana Romero",
                   textAlign: TextAlign.center,
