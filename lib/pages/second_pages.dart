@@ -20,7 +20,7 @@ class SecondPage extends StatelessWidget {
                 ),
                 Container(
                   child: Text(
-                    'Burger King',
+                    'Mc Donald''s'',
                     style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 45.0, color: Colors.red),
                   ),
                 ),
