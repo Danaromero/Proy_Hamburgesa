@@ -5,7 +5,7 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      
       body: SafeArea(
       child: Container(
         width: double.infinity,
