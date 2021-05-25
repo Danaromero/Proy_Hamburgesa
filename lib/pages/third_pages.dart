@@ -21,15 +21,7 @@ class _ThirdPageState extends State<ThirdPage> {
             width: 350,
           ),//Container
           SizedBox(height: 20.0, ),
-          Container(
-            color: Colors.pink,
-            height: 200,
-            width: 350,
-            
-            borderRadius: BorderRadius.circular(30.0)
-            
-           
-          ),//Container
+          
 
           
         ],//Widget
