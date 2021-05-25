@@ -17,6 +17,7 @@ class _ThirdPageState extends State<ThirdPage> {
         centerTitle: true,
         backgroundColor: Colors.red[200],
       ),
+      return Material(
       child: SafeArea(
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
@@ -91,6 +92,7 @@ class _ThirdPageState extends State<ThirdPage> {
         ), //Column
       ), //ConstrainedBox
       ),//SafeAREA
+      ),
     ); //Material
   } // widget
 } // first page
