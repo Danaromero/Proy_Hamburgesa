@@ -55,7 +55,7 @@ class SecondPage extends StatelessWidget {
                       hintText: "Paswoord",
                       icon: Icon(Icons.vpn_key)
                     ), ),
-                  SizeBox(height: 40,),
+                  SizedBox(height: 40,),
                   CupertinoButton(
                     color: Colors.blue,
                     borderRadius: BorderRadius.circular(50.0),
