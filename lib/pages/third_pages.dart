@@ -46,6 +46,13 @@ class _ThirdPageState extends State<ThirdPage> {
                 color: Color(0xFFFFCC9A),
                 shape: BoxShape.circle,
               ),
+              child: Align(
+                alignment: Alignment(0, 0),
+                child: Text(
+                  "Segundo Contenedor",
+                  textAlign: TextAlign.center,
+                )
+              ),//Align
               ),//Fin Container
             ),//Fin COntainer
           ], //Widget
