@@ -59,8 +59,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
             title: Text('Home', style: TextStyle(color: Colors.black),)),
         BottomNavigationBarItem(
-            icon: Icon(Icons.home , color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('LOL', style: TextStyle(color: Colors.black),)),
+            icon: Icon(Icons.favorite_outlined , color: Colors.red, size: 30.0), //icon
+            title: Text('Favoritos', style: TextStyle(color: Colors.black),)),
         BottomNavigationBarItem(
             icon: Icon(Icons.settings_outlined, color: Colors.grey, size: 30.0), //icon
             title: Text('Configuracion', style: TextStyle(color: Colors.black),)),            
