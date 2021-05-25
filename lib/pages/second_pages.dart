@@ -84,7 +84,10 @@ class SecondPage extends StatelessWidget {
                           onPressed: () {
                           },
                         ), //Fin Raised Button
+
                     
+                      ], //Fin niños Widget
+                    ), //Fin de Niño Row
 
                   ], //Widget
                 ), //Column
