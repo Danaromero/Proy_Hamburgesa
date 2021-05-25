@@ -53,7 +53,25 @@ class SecondPage extends StatelessWidget {
                     decoration: InputDecoration(
                       hintText: "Paswoord",
                       icon: Icon(Icons.vpn_key)
-                    ), ),  
+                    ), ),
+                    SizedBox(height: 40,),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: "Paswoord",
+                      icon: Icon(Icons.vpn_key)
+                    ), ), 
+                    SizedBox(height: 40,),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: "Paswoord",
+                      icon: Icon(Icons.vpn_key)
+                    ), ), 
+                    SizedBox(height: 40,),
+                  TextField(
+                    decoration: InputDecoration(
+                      hintText: "Paswoord",
+                      icon: Icon(Icons.vpn_key)
+                    ), ),   
                 ], //Widget
               ), //Column
             ], //Widget
