@@ -32,7 +32,7 @@ class _ThirdPageState extends State<ThirdPage> {
               ),
             ), //Container
             SizedBox(
-              height: 20.0,
+              height: 50.0,
             ),
             Container(
               height: 200,
