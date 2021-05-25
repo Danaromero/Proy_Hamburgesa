@@ -56,8 +56,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
             icon: Icon(Icons.event_note_outlined, color: Colors.green, size: 30.0), //icon
             title: Text('Calendario', style: TextStyle(color: Colors.black),)), 
         BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('Home', style: TextStyle(color: Colors.black),)),
+            icon: Icon(Icons.add_circle_outline_outlined, color: Colors.orangeAccent, size: 30.0), //icon
+            title: Text('Agregar', style: TextStyle(color: Colors.black),)),
         BottomNavigationBarItem(
             icon: Icon(Icons.favorite_outlined , color: Colors.red, size: 30.0), //icon
             title: Text('Favoritos', style: TextStyle(color: Colors.black),)),
