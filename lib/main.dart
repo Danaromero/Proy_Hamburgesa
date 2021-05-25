@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:Victoria/pages/first_pages.dart';
 import 'package:Victoria/pages/second_pages.dart';
 import 'package:Victoria/pages/third_pages.dart';
+import 'package:Victoria/pages/cuarto.dart';
 
 void main() => runApp(DanaApp());
 
@@ -37,19 +38,25 @@ class _PaginaInicioState extends State<PaginaInicio> {
       case 2:
         child = MaterialApp(debugShowCheckedModeBanner: false, home: new ThirdPage());
         break;
+      case 3:
+        child = MaterialApp(debugShowCheckedModeBanner: false, home: new CuartaPage());
+        break;  
     } //Fin Switch Selecciona Paginas
     return Scaffold(
       body: SizedBox.expand(child: child),
       bottomNavigationBar: BottomNavigationBar(onTap: (newIndex) => setState(() => _index = newIndex), currentIndex: _index, items: [
         BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.blueAccent, size: 30.0), //icon
-            title: Text('Home')), //
+            title: Text('Home')), 
         BottomNavigationBarItem(
             icon: Icon(Icons.format_align_center, color: Colors.blueAccent, size: 30.0), //icon
-            title: Text('Resgister')), //
+            title: Text('Resgister')), 
         BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
-            title: Text('Home')), //
+            title: Text('Home')),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.shopping_cart, color: Colors.orangeAccent, size: 30.0), //icon
+            title: Text('LOL')),      
       ]), // bottom
     ); //Fin Scaffold
   } //Fin Widget
