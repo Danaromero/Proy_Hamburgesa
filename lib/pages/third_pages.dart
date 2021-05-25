@@ -7,14 +7,20 @@ class ThirdPage extends StatefulWidget {
 
 const List<Color> orangeGradients = [
   Colors.blue,
+  Colors.blue,
+  Colors.blue,
 
 ];
 
 const List<Color> greenGradients = [
   Colors.blue,
+  Colors.blue,
+  Colors.blue,
 ];
 
 const List<Color> blueGradients = [
+   Colors.blue,
+   Colors.blue,
    Colors.blue,
 ];
 
@@ -33,14 +39,14 @@ class _ThirdPageState extends State<ThirdPage> {
           ),//Container
           SizedBox(height: 20.0, ),
           Container(
-            color: Colors.pink,
+            colors: Colors.pink,
             height: 200,
             width: 350,
             decoration: ShapeDecoration(shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30.0)
             ),//RoundedRectangleBorder
              gradient: LinearGradient(
-               color: Colors.pink,
+               color: orangeGradients,
                begin: Alignment.topLeft,
                end: Alignment.bottomRight
              )//LinearGradient
