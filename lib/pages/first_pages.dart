@@ -5,8 +5,10 @@ class FirstPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dana Romero Widgets App', style: TextStyle(
-          color: Colors.white),),
+        title: Text(
+          'Dana Romero Widgets App',
+          style: TextStyle(color: Colors.white),
+        ),
         centerTitle: true,
         backgroundColor: Colors.red[200],
       ),
