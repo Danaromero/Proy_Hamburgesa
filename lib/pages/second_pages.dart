@@ -60,7 +60,7 @@ class SecondPage extends StatelessWidget {
                     color: Colors.blue,
                     borderRadius: BorderRadius.circular(50.0),
                     child: Text('Login'), onPressed: (){}
-                  ),   
+                  )  
                 ], //Widget
               ), //Column
             ], //Widget
