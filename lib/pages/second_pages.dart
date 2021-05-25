@@ -64,9 +64,6 @@ class SecondPage extends StatelessWidget {
                           color: Colors.blue[200],
                           padding: EdgeInsets.all(20.0),
                           onPressed: () {
-                            setState(() {
-                              acceso = false;
-                            });
                           },
                         ), //Fin FlatButton
                         new Padding(
