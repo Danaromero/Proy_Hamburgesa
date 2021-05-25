@@ -6,16 +6,16 @@ class ThirdPage extends StatefulWidget {
 }
 
 const List<Color> orangeGradients = [
- color: Colors.blue,
+  Colors.blue,
 
 ];
 
 const List<Color> greenGradients = [
-  color: Colors.blue,
+  Colors.blue,
 ];
 
 const List<Color> blueGradients = [
-  color: Colors.blue,
+   Colors.blue,
 ];
 
 class _ThirdPageState extends State<ThirdPage> {
