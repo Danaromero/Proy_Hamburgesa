@@ -56,17 +56,18 @@ class SecondPage extends StatelessWidget {
                       decoration: InputDecoration(hintText: "Paswoord", icon: Icon(Icons.vpn_key)),
                     ),
                     SizedBox(height: 40,),//SizedBox
-                    Row(
-                    children: <Widget>[
-                    CupertinoButton(
-                      color: Colors.blue,
-                      child: Text('Cancelar',
-                      style: TextStyle(fontSize: 15.0),),
-                      onPressed: () {},
-                    ), //Fin FlatButton
-                    SizedBox(height: 40,),
-                    ],//Widget
-                    ),//Row
+                    RaisedButton(
+                          child: Text(
+                            'Siguiente',
+                          ),
+                          color: Colors.greenAccent[200],
+                          splashColor: Colors.cyan,
+                          animationDuration: Duration(seconds: 20),
+                          padding: EdgeInsets.all(20.0),
+                          colorBrightness: Brightness.light,
+                          onPressed: () {
+                          },
+                        ), //Fin Raised Button
                     
 
                   ], //Widget
