@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ThirdPage extends StatefulWidget{
+class ThirdPage extends StatelessWidget{
   @override
   _ThirdPageState createState() => _ThirdPageState();
 }
 
 
 
-class _ThirdPageState extends StatelessWidget {
+class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
