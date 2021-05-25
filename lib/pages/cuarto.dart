@@ -4,6 +4,9 @@ class CuartaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Dana Romero Widgets App'),
+      ),
       backgroundColor: Colors.white,
       body: Container(
         child: Center(
