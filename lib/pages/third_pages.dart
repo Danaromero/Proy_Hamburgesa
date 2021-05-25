@@ -17,13 +17,16 @@ class _ThirdPageState extends State<ThirdPage> {
               height: 80.0,
             ),
             Container(
-              color: Colors.pink,
               height: 200,
               width: 350,
+              decoration: BoxDecoration(
+                color: Color(0xA2FF88AC)
+              ),
               child: Align(
                alignment: Alignment(0.1, 0),
                child: Text("Primer Contenedor",
                textAlign: TextAlign.center,
+               
                ),
               ),
             ), //Container
