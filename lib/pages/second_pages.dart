@@ -60,7 +60,7 @@ class SecondPage extends StatelessWidget {
                     ),
                     FlatButton(
                       padding: EdgeInsets.symmetric(horizontal: 30.0),
-                      child: Text('Cancelar'
+                      child: Text('Cancelar',
                       style: TextStyle(fontSize: 15.0),),
                       color: Colors.blue,
                       borderRadius: BorderRadius.circular(30.0),
