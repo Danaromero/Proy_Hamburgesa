@@ -7,7 +7,6 @@ class SecondPage extends StatelessWidget {
     final ui.Size logicalSize = MediaQuery.of(context).size;
     final double _heigth = logicalSize.height;
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
       body: SafeArea(
         child: Container(
           width: double.infinity,
@@ -16,7 +15,7 @@ class SecondPage extends StatelessWidget {
           child: Column(
             children: <Widget>[
               SizedBox(
-                height: 100,
+                height: 50,
               ),
               Container(
                 child: Text(
