@@ -9,6 +9,7 @@ class _ThirdPageState extends State<ThirdPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
+      body: SafeArea(
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: 300, minWidth: 200),
         child: Column(
@@ -78,6 +79,7 @@ class _ThirdPageState extends State<ThirdPage> {
           ], //Widget
         ), //Column
       ), //ConstrainedBox
+      ),//SafeAREA
     ); //Material
   } // widget
 } // first page
