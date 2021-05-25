@@ -22,7 +22,7 @@ class _ThirdPageState extends State<ThirdPage> {
               width: 350,
               child: Align(
                alignment: Alignment(0.1, 0),
-               child: Text("Primer Contenedor"
+               child: Text("Primer Contenedor",
                textAlign: TextAlign.center,
                ),
               ),
