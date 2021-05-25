@@ -11,7 +11,7 @@ class SecondPage extends StatelessWidget {
         child: Container(
           width: double.infinity,
           height: double.infinity,
-          padding: EdgeInsets.symmetric(horizontal: 30.0),
+          padding: EdgeInsets.symmetric(horizontal: 20.0),
           child: Column(
             children: <Widget>[
               SizedBox(
