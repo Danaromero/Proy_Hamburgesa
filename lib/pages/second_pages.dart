@@ -56,6 +56,25 @@ class SecondPage extends StatelessWidget {
                       decoration: InputDecoration(hintText: "Paswoord", icon: Icon(Icons.vpn_key)),
                     ),
                     SizedBox(height: 40,),//SizedBox
+                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        FlatButton(
+                          child: Text('Cancelar'),
+                          color: Colors.blue[200],
+                          padding: EdgeInsets.all(20.0),
+                          onPressed: () {
+                            setState(() {
+                              acceso = false;
+                            });
+                          },
+                        ), //Fin FlatButton
+                        new Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                        ),
+                    
+                    
+                    
                     RaisedButton(
                           child: Text(
                             'Siguiente',
