@@ -46,7 +46,7 @@ class SecondPage extends StatelessWidget {
                   TextField(
                     decoration: InputDecoration(
                       hintText: "Email",
-                      icon: Icon(Icons.Email)
+                      icon: Icon(Icons.email)
                     ), ),
                 ], //Widget
               ), //Column
