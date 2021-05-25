@@ -21,7 +21,7 @@ class SecondPage extends StatelessWidget {
             children: <Widget>[
               new Container(
                 child: new Image.asset(
-                  'assets/images/calendario.png',
+                  'assets/images/calendario.jpg',
                 ),
               ),
               Text(
