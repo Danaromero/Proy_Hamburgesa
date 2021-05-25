@@ -6,6 +6,8 @@ class CuartaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Dana Romero Widgets App'),
+        centerTitle: true,
+        backgroundColor: Colors.white10,
       ),
       backgroundColor: Colors.white,
       body: Container(
