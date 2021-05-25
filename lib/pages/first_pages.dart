@@ -14,8 +14,7 @@ class FirstPage extends StatelessWidget {
               new Container(
                         child: new Image.asset(
                           'assets/images/burger.jpg',
-                          height: 60.0,
-                          fit: BoxFit.cover,
+                          
                         ),
                       ),
               Text(
